@@ -38,7 +38,9 @@
   ],
   "ts-node": {
     "compilerOptions": {
-      "module": "CommonJS"
+      "target": "ESNext",
+      "module": "NodeNext",
+      "moduleResolution": "node"
     },
     "require": [
       "tsconfig-paths/register"
