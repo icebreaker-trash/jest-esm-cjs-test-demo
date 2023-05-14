@@ -18,7 +18,7 @@
     "ls:pack": "npm pack --dry-run",
     "prepare": "ts-patch install -s",
     "preinstall": "npx only-allow pnpm",
-    "raw": "ts-node build.ts"
+    "raw": "ts-node test/build.ts"
   },
   "packageManager": "pnpm@7.16.1",
   "repository": {

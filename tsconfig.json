@@ -39,7 +39,7 @@
   "ts-node": {
     "compilerOptions": {
       "target": "ESNext",
-      "module": "NodeNext",
+      "module": "ESNext",
       "moduleResolution": "node"
     },
     "require": [
