@@ -10,7 +10,7 @@
     "build": "pnpm clean && pnpm dts && cross-env NODE_ENV=production rollup --config rollup.config.ts --configPlugin typescript",
     "build:tsc": "cross-env NODE_ENV=development tsc --build tsconfig.json",
     "dts": "tsc --emitDeclarationOnly -p tsconfig.dts.json",
-    "test": "jest",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
     "init:rename": "node scripts/init/rename.js",
     "init:bin": "node scripts/init/bin.js",
     "clean": "node scripts/clean.js",
